@@ -1,0 +1,41 @@
+  {
+    printf("Direita\n");
+  }
+
+  int contadorbispo = 0;
+
+  while (contadorbispo < 5)
+  { //Repetir enquanto algo for verdade. Pode ser que nunca execute(se a condição for falsa de inicio.
+    printf("Cima, Direita\n");
+    contadorbispo++; 
+  }
+    int contadorrainha = 0;
+
+   do
+   {
+    printf("Esquerda\n");
+     contadorrainha++;
+   } //Quando a ação deve ocorrer no minimo uma vez. Exacuta primero pergunta depois.
+   
+   
+   while (contadorrainha < 8);
+   
+  for (int i = 1; i <= 1; i++) {
+  
+    int j = 0; //primeiro fazemos uma variavel para  contar as casas para baixo
+
+    while (j < 2) {
+   
+      printf("Baixo\n");
+      j++;  ///aumenta o contador para não ficar com loop infinito 
+
+    }
+    
+    printf("Esquerda\n");  //essa linha completa o "L"
+
+  }
+      
+   
+    return 0;
+
+  }
