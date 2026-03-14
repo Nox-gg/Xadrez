@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+  int main(){
+  
+  for (int i = 0; i < 5; i++)
+  {
+    printf("Direita\n");
+  }                         //for usado para contagens conhecidas (ex:5 casas)tudo no incio, fim e passo fica numa linha só//
+
+  int contadorbispo = 0;
+
+  while (contadorbispo < 5) //Repetir enquanto algo for verdade. Pode ser que nunca execute(se a condição for falsa de inicio.
+  {
+    printf("Cima, Direita\n");
+    contadorbispo++; 
+  }
+    int contadorrainha = 0;
+
+   do
+   {
+    printf("Esquerda\n");
+     contadorrainha++;
+   } 
+   
+   while (contadorrainha < 8); //Quando a ação deve ocorrer no minimo uma vez. Exacuta primero pergunta depois.
+   
+      
+   
+    return 0;
+
+  }
